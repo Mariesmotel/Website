@@ -1,0 +1,145 @@
+.title-banner {
+    background: url('../images/restauranthead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 40vh;
+}
+
+.home-banner {
+    background: url('../images/homehead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 80vh;
+}
+
+.motel-banner {
+    background: url('../images/motelhead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 40vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .title-banner-text {
+        color: white;
+        font-size: 11vw;
+        font-weight: 700;
+        padding-top: 25vh;
+    }
+    .subtitle {
+        color: white;
+        font-size: 4vw;
+    }
+
+    .motel-banner-text {
+        color: white;
+        font-size: 11vw;
+        font-weight: 700;
+        padding-top: 25vh;
+    }
+
+    .home-banner-text {
+        color: white;
+        font-size: 6vw;
+        font-weight: 700;
+        padding-top: 35vh;
+        padding-bottom: 3vh;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .title-banner-text {
+        color: white;
+        font-size: 5vw;
+        font-weight: 700;
+        padding-top: 25vh;
+    }
+    .subtitle {
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    .motel-banner-text {
+        color: white;
+        font-size: 5vw;
+        font-weight: 700;
+        padding-top: 23vh;
+    }
+
+    .home-banner-text {
+        color: white;
+        font-size: 4vw;
+        font-weight: 700;
+        padding-top: 35vh;
+        padding-bottom: 3vh;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .title-banner-text {
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 25vh;
+    }
+    .subtitle {
+        color: white;
+        font-size: 2vw;
+    }
+
+    .motel-banner-text {
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 23vh;
+    }
+
+    .home-banner-text {
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 35vh;
+        padding-bottom: 3vh;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .title-banner-text {
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 25vh;
+    }
+
+    .subtitle {
+        color: white;
+        font-size: 2vw;
+    }
+
+    .motel-banner-text {
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 23vh;
+    }
+
+    .home-banner-text {
+        color: white;
+        font-size: 3vw;
+        font-weight: 700;
+        padding-top: 35vh;
+        padding-bottom: 3vh;
+    }
+}

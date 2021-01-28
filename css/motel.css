@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+.scene-1 {
+    background: url('../images/motel-one.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-2 {
+    background: url('../images/motel-two.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-3 {
+    background: url('../images/motel-three.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    vertical-align: bottom;
+}
+
+.scene-4 {
+    background: url('../images/motel-four.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-5 {
+    background: url('../images/motel-five.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-6 {
+    background: url('../images/motel-six.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-7 {
+    background: url('../images/motel-seven.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-8 {
+    background: url('../images/motel-eight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-9 {
+    background: url('../images/motel-nine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.scene-10 {
+    background: url('../images/motel-one.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .room-titles {
+        text-align: center;
+        font-family: Playball;
+        font-size: 7.5vw;
+        padding-top: 3vh;
+    }
+    .room-details {
+        font-size: 4.2vw;
+    }
+
+    .room-details-bold {
+        font-size: 4.5vw;
+        font-family: Roboto-Bold;
+        padding-top: 2vw;
+    }
+
+    .room-details-title {
+        font-size: 5vw;
+        font-family: Roboto-Bold;
+        padding-top: 2vw;
+        padding-bottom: 2.5vw;
+    }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .room-titles {
+        text-align: center;
+        font-family: Playball;
+        font-size: 7.5vw;
+        padding-top: 3vh
+    }
+    .room-details {
+        font-size: 3.5vw;
+    }
+
+    .room-details-bold {
+        font-size: 3.3vw;
+        font-family: Roboto-Bold;
+        padding-top: 2vw;
+    }
+    .room-details-title {
+        font-size: 3.5vw;
+        font-family: Roboto-Bold;
+        padding-top: 2vw;
+        padding-bottom: 2.5vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .room-titles {
+        font-family: Playball;
+        font-size: 5vw;
+        padding-top: 1vh
+    }
+    .room-details {
+        font-size: 2.2vw;
+    }
+
+    .room-details-bold {
+        font-size: 2.3vw;
+        font-family: Roboto-Bold;
+        padding-top: 2vw;
+    }
+    .room-details-title {
+        font-size: 2vw;
+        font-family: Roboto-Bold;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .room-titles {
+        font-family: Playball;
+        font-size: 3.5vw;
+        padding-top: 1vh
+    }
+    .room-details {
+        font-size: 1.3vw;
+    }
+
+    .room-details-bold {
+        font-size: 1.3vw;
+        font-family: Roboto-Bold;
+        padding-top: 2vw;
+    }
+    .room-details-title {
+        font-size: 1.3vw;
+        font-family: Roboto-Bold;
+    }
+
+}
